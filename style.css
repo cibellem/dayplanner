@@ -1,0 +1,99 @@
+
+body {
+
+    background-color: #fff 
+ }
+
+.jumbotron {
+    background-size: cover;
+    box-shadow: 2px black;
+
+}
+h1 {
+    text-shadow: 1px 1px black;}
+
+
+p{
+    font-family: 'Questrial', sans-serif;   
+    text-align: center;
+    margin-top: 15px;
+   
+    
+}
+
+span {
+   border-color: #dddddd;
+    margin-left: 10px;
+}
+
+.lead {
+
+    text-shadow: 2px 2px black;
+    
+
+}
+
+.spanBttn{
+ 
+    background-color: burlywood !important;
+    border-color: burlywood; 
+    
+
+    
+}
+ 
+ .headerDiv {
+ background-image: url("azsunrise.jpg");
+ color: white;
+ font-family: 'Questrial', sans-serif;   
+
+}
+
+textarea p {
+-webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
+-moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
+box-shadow: inset 2px 2px 2px 0px #dddddd;
+margin: 0;
+
+}
+
+/* 
+These rules take effect when the browser's width
+  is either 767px or less. */
+
+@media screen and (max-width: 767px) {       
+
+    .jumbotron{
+        height: 300px;
+        
+    }
+     p{
+        font-size: smaller;
+    } 
+
+}
+
+/*
+  These rules take effect when the browser's width
+  is either 400px or less.
+*/
+@media screen and (max-width: 400px) {
+
+    .jumbotron{
+        height: 300px;
+        
+    }
+   
+    p{
+        margin-top: 0;
+    }
+     .plannerDiv{
+        width:100%;
+        
+
+    } 
+    .spanBttn{
+        border-radius: 25px;
+    }
+   
+    }
