@@ -25,7 +25,7 @@ https://cibellem.github.io/dayplanner/
 
 Screenshots in how the application will look different screens sizes. 
 
-![640px](assets/640px.png) <br>
-![780px](assets/780px.png) <br>
-![980px](assets/980px.png) <br>
+![640px](assets/screenshots/640px.png) <br>
+![780px](assets/screenshots/780px.png) <br>
+![980px](assets/screenshots/980px.png) <br>
 
