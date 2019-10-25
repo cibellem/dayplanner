@@ -1,0 +1,156 @@
+
+body {
+
+    background-color: snow;
+    
+ }
+
+.jumbotron {
+    background-size: cover;
+    box-shadow: 2px black;
+    
+
+}
+h1 {
+    text-shadow: 1px 1px black;}
+
+
+p{
+    font-family: 'Questrial', sans-serif;   
+    text-align: center;
+    margin-top: 15px;
+   
+    
+}
+
+.lead {
+
+    text-shadow: 2px 2px black;
+    
+
+}
+
+.plannerDiv{  
+    
+    border-radius: 25px;
+    box-shadow: 2px black;
+}
+
+.myBttn{
+ 
+     background-color: rgba(218, 218, 238, 0.76) !important;
+    
+    margin-left: 10px; 
+    border-radius: 25px 50px 50px 25px ;
+    box-shadow: 1px 1px black;
+  
+}
+
+#text9AM {
+
+    border-radius: 5px;
+    
+    
+  
+    
+  
+} 
+
+#text10AM {
+
+    border-radius: 5px;
+} 
+#text11AM {
+
+    border-radius: 5px;
+} 
+#text12AM {
+
+    border-radius: 5px;
+} 
+#text1PM {
+
+    border-radius: 5px;
+} 
+#text2PM {
+
+    border-radius: 5px;
+} 
+#text3PM {
+
+    border-radius: 5px;
+} 
+#text4PM {
+
+    border-radius: 5px;
+} 
+#text5PM {
+
+    border-radius: 5px;
+} 
+
+
+
+ .headerDiv {
+ background-image: url("azsunrise.jpg");
+ color: white;
+ font-family: 'Questrial', sans-serif;   
+
+}
+
+textarea p {
+-webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
+-moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
+box-shadow: inset 2px 2px 2px 0px #dddddd;
+
+
+}
+
+.bg-red {
+    background-color: rgb(255, 1, 1);
+}
+.bg-green {
+
+    background-color: rgba(8, 131, 8, 0.788);
+}
+
+.bg-gray {
+    background-color: #cfdce9da;
+}
+/* 
+These rules take effect when the browser's width
+  is either 767px or less. */
+
+@media screen and (max-width: 767px) {       
+
+    .jumbotron{
+        height: 300px;
+        
+    }
+     p{
+        font-size: smaller;
+    } 
+
+}
+
+/*
+  These rules take effect when the browser's width
+  is either 400px or less.
+*/
+@media screen and (max-width: 400px) {
+
+    .jumbotron{
+        height: 300px;
+        
+    }
+   
+    .hourC{
+        margin-right: 0px;
+
+    }
+    
+    .spanBttn{
+        border-radius: 25px;
+    }
+   
+}
