@@ -8,8 +8,8 @@ Time management plays an important role in the life of a Web Developer  professi
 *Planner*
 *Bootstrap*,
 *Jquery,*
-*Object Methods*
-*localStorage*
+*Object Methods,*
+*localStorage,*
 *Moment.js*
 
 
