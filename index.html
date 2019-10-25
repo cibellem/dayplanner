@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Day Planner</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
     <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
         integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
@@ -20,7 +22,7 @@
 <body>
 
 
-    <!-- nav bar start here -->
+    <!-- Header -->
 
     <div class="jumbotron border-bottom  jumbotron-fluid headerDiv">
         <div class="container text-center  ">
@@ -36,15 +38,17 @@
         <div class="row row9 ">
 
             <div class="  input-container input-group col-1 ">
-                <p class=" h5 border-bottom ">9am</p>
+                <p class="border-bottom">9am</p>
 
             </div>
+
+
             <div class="input-group  col-10 form-group">
-                <textarea id=text9AM class="form-control custom-control" rows="2" style="resize:none"
+                <textarea id=text9AM class="form-control custom-control textborder" rows="2" style="resize:none"
                     name="9"></textarea>
 
-                <span class="border-left bg-light spanBttn col-sm-1 input-group-addon 
-                btn "></span>
+                <button class=" myBttn col-1 
+                btn "></button>
 
             </div>
         </div>
@@ -52,15 +56,16 @@
 
         <div class="row row10 ">
 
-            <div class="  hours input-group input-container  col-1">
-                <p class=" h5 border-bottom ">10am</p>
+            <div class="input-group input-container  col-1">
+                <p class="border-bottom">10am</p>
 
             </div>
             <div class="input-group col-10 form-group">
-                <textarea id=text10AM class="form-control custom-control" rows="2" style="resize:none"
+                <textarea id=text10AM class="form-control custom-control textborder" rows="2" style="resize:none"
                     name="10"></textarea>
 
-                <span class=" border-left spanBttn col-sm-1 input-group-addon btn "></span>
+                <button class=" myBttn col-1 
+                    btn "></button>
             </div>
         </div>
 
@@ -68,13 +73,14 @@
         <div class="row  row11  ">
 
             <div class="  input-group  col-1">
-                <p class=" h5 border-bottom ">11am</p>
+                <p class="border-bottom">11am</p>
 
             </div>
             <div class="input-group col-10 form-group">
-                <textarea id=text11AM class="form-control custom-control" rows="2" style="resize:none"
+                <textarea id=text11AM class="form-control custom-control textborder" rows="2" style="resize:none"
                     name="11"></textarea>
-                <span class=" border-left  spanBttn col-sm-1  input-group-addon btn "></span>
+                <button class=" myBttn col-1 
+                    btn "></button>
             </div>
         </div>
 
@@ -82,13 +88,14 @@
         <div class="row row12  ">
 
             <div class="  input-group  col-1">
-                <p class="h5 border-bottom ">12am</p>
+                <p class="border-bottom">12am</p>
 
             </div>
             <div class="input-group col-10 form-group">
-                <textarea id=text12AM class="form-control custom-control" rows="2" style="resize:none"
+                <textarea id=text12AM class="form-control custom-control textborder" rows="2" style="resize:none"
                     name="12"></textarea>
-                <span class=" border-left spanBttn col-sm-1  input-group-addon btn "></span>
+                <button class=" myBttn col-1 
+                    btn "></button>
             </div>
         </div>
 
@@ -96,13 +103,14 @@
         <div class="row row13 ">
 
             <div class="   input-group  col-1">
-                <p class=" h5 border-bottom ">1pm</p>
+                <p class="border-bottom">1pm</p>
 
             </div>
             <div class="input-group col-10 form-group">
-                <textarea id=text1PM class="form-control custom-control" rows="2" style="resize:none"
+                <textarea id=text1PM class="form-control custom-control textborder" rows="2" style="resize:none"
                     name="13"></textarea>
-                <span class=" border-left spanBttn col-sm-1  input-group-addon btn "></span>
+                <button class=" btn btn-light myBttn col-1 
+                    btn "></button>
             </div>
         </div>
 
@@ -110,13 +118,14 @@
         <div class="row row14 ">
 
             <div class="  input-group  col-1">
-                <p class="h5 border-bottom ">2pm</p>
+                <p class="border-bottom">2pm</p>
 
             </div>
             <div class="input-group col-10 form-group">
-                <textarea id=text2PM class="form-control custom-control" rows="2" style="resize:none"
+                <textarea id=text2PM class="form-control custom-control textborder" rows="2" style="resize:none"
                     name="14"></textarea>
-                <span class="border-left col-sm-1 spanBttn  input-group-addon btn "></span>
+                <button class=" btn myBttn col-1 
+                    btn "></button>
             </div>
         </div>
 
@@ -124,13 +133,14 @@
         <div class="row row15 ">
 
             <div class="   input-group  col-1">
-                <p class=" h5 border-bottom ">3pm</p>
+                <p class="border-bottom">3pm</p>
 
             </div>
             <div class="input-group col-10 form-group">
-                <textarea id=text3PM class="form-control custom-control" rows="2" style="resize:none"
+                <textarea id=text3PM class="form-control custom-control textborder" rows="2" style="resize:none"
                     name="15"></textarea>
-                <span class="border-left col-sm-1 spanBttn input-group-addon btn "></span>
+                <button class=" myBttn col-1 
+                    btn "></button>
             </div>
         </div>
 
@@ -138,26 +148,28 @@
         <div class="row row16 ">
 
             <div class="  input-group  col-1">
-                <p class=" h5 border-bottom ">4pm</p>
+                <p class="border-bottom">4pm</p>
 
             </div>
             <div class="input-group col-10 form-group">
-                <textarea id=text4PM class="form-control custom-control" rows="2" style="resize:none"
+                <textarea id=text4PM class="form-control custom-control textborder" rows="2" style="resize:none"
                     name="16"></textarea>
-                <span class=" border-left col-sm-1 spanBttn input-group-addon btn "></span>
+                <button class=" btn myBttn col-1 
+                     "></button>
             </div>
         </div>
 
         <div class="row row17 ">
 
             <div class="  input-group  col-1">
-                <p class=" h5 border-bottom ">5pm</p>
+                <p class="border-bottom">5pm</p>
 
             </div>
             <div class="input-group    col-10 form-group">
-                <textarea id=text5PM class="form-control custom-control" rows="2" style="resize:none"
+                <textarea id=text5PM class="textborder form-control custom-control" rows="2" style="resize:none"
                     name="17"></textarea>
-                <span class="  border-left spanBttn col-sm-1  input-group-addon btn "></span></span>
+                <button class=" btn myBttn col-1 
+                     "></button>
             </div>
         </div>
 
@@ -195,7 +207,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
