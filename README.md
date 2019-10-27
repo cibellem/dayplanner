@@ -8,8 +8,8 @@ Time management plays an important role in the life of a Web Developer  professi
 *Planner*
 *Bootstrap*,
 *Jquery,*
-*Object Methods*
-*localStorage*
+*Object Methods,*
+*localStorage,*
 *Moment.js*
 
 
@@ -23,7 +23,7 @@ Time management plays an important role in the life of a Web Developer  professi
 Check it out! 
 https://cibellem.github.io/dayplanner/
 
-Screenshots in how the application will look different screens sizes. 
+Screenshots of how the application will look different screens sizes. 
 
 ![640px](assets/screenshots/640px.png) <br>
 ![780px](assets/screenshots/780px.png) <br>
