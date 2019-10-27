@@ -7,6 +7,7 @@ $(document).ready(function () {
     $(".todaysDate").append(today);
 
     var now = parseInt(moment().format('HH'));
+    console.log(now)
 
     var $text9AM = $("#text9AM");
     var $text10AM = $("#text10AM");
